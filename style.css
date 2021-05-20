@@ -1,0 +1,71 @@
+* {
+  background-color: #f3f3f3;
+}
+
+.title {
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  color: #0870ff;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5rem;
+  align-items: center;
+  height: 20rem;
+  width: 18.4rem;
+  background-color: #0870ff;
+  border-radius: 50% 50% 15% 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.counterScreen {
+  width: 8rem;
+  height: 8rem;
+  margin-top: 4rem;
+  background-color: #88a6cf;
+  border-radius: 50% 50% 15% 15%;
+  border-color: black;
+  border-width: 4px;
+}
+
+.buttonContainer {
+  margin-top: 2.7rem;
+  background-color: #0870ff;
+}
+
+.button {
+  font-family: "Gill Sans", "Gill Sans MT";
+  border: none;
+  border-radius: 2px;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.minusButton {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(247, 6, 6);
+  border-radius: 2px 2px 2px 50%;
+}
+
+.resetButton {
+  width: 8rem;
+  height: 4rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.addButton {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(30, 255, 0);
+  border-radius: 2px 2px 50% 2px;
+}
