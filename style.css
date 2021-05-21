@@ -24,13 +24,17 @@
 }
 
 .counterScreen {
+  display: flex;
   width: 8rem;
   height: 8rem;
   margin-top: 4rem;
   background-color: #88a6cf;
   border-radius: 50% 50% 15% 15%;
-  border-color: black;
+  border-color: #000;
   border-width: 4px;
+  text-align: center;
+  font-size: 6rem;
+  color: #000;
 }
 
 .buttonContainer {
@@ -60,7 +64,7 @@
   width: 8rem;
   height: 4rem;
   color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  background-color: #000;
 }
 
 .addButton {

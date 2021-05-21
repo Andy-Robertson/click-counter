@@ -12,12 +12,14 @@
   <body>
     <h1 class="title">Click to count!</h1>
     <div class="counter">
-      <input type="text" class="counterScreen" disabled />
+      <input type="text" id="display" class="counterScreen" disabled />
 
       <div class="buttonContainer">
-        <button value="-1" class="button minusButton">-1</button>
-        <button value="0" class="button resetButton">RESET</button>
-        <button value="1" class="button addButton">+1</button>
+        <button value="1" id="minusBtn" class="button minusButton">-1</button>
+        <button value="0" id="resetBtn" class="button resetButton">
+          RESET
+        </button>
+        <button value="1" id="plusBtn" class="button addButton">+1</button>
       </div>
     </div>
 
