@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Link CSS -->
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Link script to remove all on-the-fly browser formatting -->
     <link rel="stylesheet" type="text/css" href="normalize.css" />
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Click Counter</title>
   </head>
   <body>
-    <h1 class="title">Click to count!</h1>
+    <h1 class="title">CLICK! COUNTER</h1>
     <div class="counter">
       <input type="text" id="display" class="counterScreen" disabled />
-
       <div class="buttonContainer">
-        <button value="1" id="minusBtn" class="button minusButton">-1</button>
-        <button value="0" id="resetBtn" class="button resetButton">
-          RESET
-        </button>
-        <button value="1" id="plusBtn" class="button addButton">+1</button>
+        <button id="minusBtn" class="button minusButton">-1</button>
+        <button id="resetBtn" class="button resetButton">RESET</button>
+        <button id="plusBtn" class="button addButton">+1</button>
       </div>
     </div>
-
+    <!-- Link javaScript-->
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
