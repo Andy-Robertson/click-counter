@@ -25,7 +25,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.counterScreen {
+.counter-screen {
   display: flex;
   width: 8rem;
   height: 8rem;
@@ -40,7 +40,7 @@
   color: #000;
 }
 
-.buttonContainer {
+.button-container {
   margin-top: 2.7rem;
   background-color: #0870ff;
 }
@@ -60,25 +60,25 @@
   color: rgb(255, 255, 255);
 }
 
-.minusButton {
+.minus-button {
   width: 4rem;
   height: 4rem;
   background-color: rgb(247, 6, 6);
   border-radius: 2px 2px 2px 50%;
 }
 
-.resetButton {
+.reset-button {
   width: 8rem;
   height: 4rem;
   color: rgb(255, 255, 255);
   background-color: #000;
 }
 
-.resetButton:active {
+.reset-button:active {
   color: rgb(247, 6, 6);
 }
 
-.addButton {
+.add-button {
   width: 4rem;
   height: 4rem;
   background-color: rgb(30, 255, 0);

@@ -20,10 +20,10 @@ function keepCount(event) {
   const buttonId = event.target.id;
 
   // Tests condition of buttonId
-  if (buttonId === "plusBtn") {
+  if (buttonId === "plus-btn") {
     count += 1; // Adds one to the count if plus button clicked
     screen.value = count; // updates output screen with value stored in count variable
-  } else if (buttonId == "minusBtn") {
+  } else if (buttonId == "minus-btn") {
     count -= 1; // Reduces count variable by one if minus button clicked
     screen.value = count;
   } else {
