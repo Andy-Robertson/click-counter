@@ -21,6 +21,7 @@
   height: 20rem;
   width: 18.4rem;
   background-color: #0870ff;
+  border: groove #d61818;
   border-radius: 50% 50% 15% 15%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -30,11 +31,9 @@
   width: 8rem;
   height: 8rem;
   margin-top: 4rem;
-  background-color: #88a6cf;
+  background-color: #85bbc5;
   border-radius: 50% 50% 15% 15%;
-  border-color: #000;
-  border-width: 1px;
-  border-style: inset;
+  border: 1px inset #85bbc5;
   text-align: center;
   font-size: 6rem;
   color: #000;
@@ -63,7 +62,7 @@
 .minus-button {
   width: 4rem;
   height: 4rem;
-  background-color: rgb(247, 6, 6);
+  background-color: #d61818;
   border-radius: 2px 2px 2px 50%;
 }
 
@@ -75,7 +74,7 @@
 }
 
 .reset-button:active {
-  color: rgb(247, 6, 6);
+  color: #d61818;
 }
 
 .add-button {
